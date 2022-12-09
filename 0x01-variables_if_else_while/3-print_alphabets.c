@@ -4,7 +4,7 @@
 /**
  * main-returns both lower and upper case alphabets
  *
- * ReturnL Alwyas 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
