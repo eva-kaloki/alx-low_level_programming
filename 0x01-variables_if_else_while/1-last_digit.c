@@ -3,7 +3,6 @@
 #include <time.h>
 /**
  * main - main function generates a random number
- * 
  * Return: Always 0 (Success)
  */
 int main (void)
