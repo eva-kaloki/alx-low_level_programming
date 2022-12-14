@@ -3,12 +3,12 @@
 
 /**
  * add -prints did two numbers
- * i: print int i
- * k: print int k
+ * @i: print int i
+ * @k: print int k
  * Return: Always 0
  */
 
-int add(int i, ink k)
+int add(int i, int k)
 {
 	return (i + k);
 }
