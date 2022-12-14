@@ -2,23 +2,24 @@
 #include <stdio.h>
 
 /**
- * print_to_98 - print all natural numbers from n to 98
- * @n: the number to start counting from n to 98
- * Return: Always 0
+ * print_to_98 - prints all natural numbers to 98
+ *
+ * @n: number provided by user
  */
 
 void print_to_98(int n)
+
 {
-	while (n < 98)
+	if (n < 98)
 	{
-		printf("%i, ", n);
-		n++;
+		for (n = n; n < 98; n++)
+			printf("%d, ", n);
+		printf("%d\n", 98);
 	}
-	while (n > 98)
+	else
 	{
-		printf("%i, ", n);
-		n--;
+		for (n = n; n > 98; n--)
+			printf("%d, ", n);
+		printf("%d\n", 98);
 	}
-	printf("98");
-	putchar('\n');
 }
