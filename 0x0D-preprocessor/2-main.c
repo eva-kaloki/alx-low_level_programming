@@ -1,5 +1,11 @@
-#ifndef SUM_X_Y
-#define SUM_X_Y
-
-#define SUM(X, Y) ((X) + (Y))
-#endif
+#include <stdio.h>
+/**
+ * main - Program compilation starts from the main
+ * Description: this program prints the name of the file it was comipiled from
+ * Return: 0 (success)
+ */
+int main(void)
+{
+	printf("%s\n", __FILE__);
+	return (0);
+}
